@@ -1,0 +1,27 @@
+{
+	"DE": [
+		["Auf den letzen Drücker", "So früh wie möglich"],
+		["Teamplayer", "Einzelgaenger"],
+		["Spontan", "Planend"],
+		["Raeumlich flexibel", "Home Office"],
+		["Fleissig", "Gemuetlich"],
+		["Pflichtbewusst", "Hedonist"],
+		["Mathegenie", "Mathehasser"],
+		["Extrovertiert", "Introvertiert"],
+		["Strukturiert", "Chaotisch"],
+		["Ruhig", "Redselig"]
+	],
+	"EN": [
+		["Last Minute", "As soon as possible"],
+		["Teamplayer", "Lone Wolf"],
+		["Spontaneous", "Planning"],
+		["Flexible in location", "Home Office"],
+		["Hardworking", "Lazy"],
+		["Dutiful", "Hedonist"],
+		["Math wizard", "Math blasphemer"],
+		["Extrovert", "Introvert"],
+		["Structured", "Chaotic"],
+		["Quiet", "Talkative"]
+	]
+
+}

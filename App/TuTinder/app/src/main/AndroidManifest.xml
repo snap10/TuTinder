@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tutinder.mad.uulm.de.tutinder">
+
+    <permission
+        android:name="tutinder.mad.uulm.de.tutinder.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="tutinder.mad.uulm.de.tutinder.permission.C2D_MESSAGE" />
+    <uses-permission android:name="tutinder.mad.uulm.de.tutinder.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".singletons.Tutinder"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tutinder.mad.uulm.de.tutinder.activities.SplashActivity" />
+        </activity>
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tutinder.mad.uulm.de.tutinder.activities.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".activities.CourseListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.EditAccountActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tutinder.mad.uulm.de.tutinder.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CourseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TutinderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.FriendActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+            <!--
+                <intent-filter>
+                <action android:name="tutinder.mad.uulm.de.tutinder.intent.action.notification_new_friend_request" />
+
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".activities.MatchActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+            <!--
+            <intent-filter>
+                <action android:name="tutinder.mad.uulm.de.tutinder.intent.action.notification_new_match" />
+
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".activities.FriendlistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.QrCodeActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="tutinder.mad.uulm.de.tutinder" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".services.MyInstanceIDListenerService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".services.GCMRegisterService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".services.GCMListenerService"
+            android:enabled="true">
+            <intent-filter android:priority="1000">
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".services.GCMNotificationService"
+            android:enabled="true" />
+
+        <activity android:name=".activities.MatchListActivity" />
+        <activity
+            android:name=".activities.GroupActivity"
+            android:label="@string/title_group"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tutinder.mad.uulm.de.tutinder.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".admin.AdminActivity"
+            android:label="@string/title_activity_admin"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tutinder.mad.uulm.de.tutinder.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".admin.AdminCourseActivity"
+            android:label="@string/title_activity_admin_course"
+            android:parentActivityName=".admin.AdminActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tutinder.mad.uulm.de.tutinder.admin.AdminActivity" />
+        </activity>
+        <activity
+            android:name=".activities.GroupChatActivity"
+            android:parentActivityName=".activities.GroupActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tutinder.mad.uulm.de.tutinder.activities.GroupActivity" />
+        </activity>
+        <activity android:name=".activities.GroupRequestActivity"></activity>
+        <activity android:name=".activities.GroupRequestListActivity"></activity>
+    </application>
+
+</manifest>

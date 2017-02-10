@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/activity_splash_background</item>
+    </style>
+
+    <style name="AppTheme" parent="TuTinder" />
+
+    <style name="TuTinder" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+    </style>
+
+    <style name="TuTinder.Toolbar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorHint">@color/textSecondary</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="TuTinder.Toolbar.Transparent" parent="Widget.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="popupTheme">@style/TuTinder</item>
+    </style>
+
+    <style name="TuTinder.TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabIndicatorColor">@color/accent</item>
+        <item name="tabBackground">@color/primary</item>
+    </style>
+
+    <style name="TuTinder.Text.Title" parent="TuTinder">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryDark</item>
+    </style>
+
+    <style name="TuTinder.Text.Caption" parent="TuTinder">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:paddingTop">@dimen/cptn_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/cptn_vertical_padding</item>
+    </style>
+
+    <style name="TuTinder.Card.Caption" parent="TuTinder">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TuTinder.Text.Error" parent="TuTinder">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:layout_marginLeft">2dp</item>
+    </style>
+
+    <style name="TuTinder.Button.Primary" parent="TuTinder">
+        <item name="colorButtonNormal">@color/primary</item>
+        <item name="colorControlActivated">@color/primaryDark</item>
+        <item name="colorControlHighlight">@color/primaryDark</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="TuTinder.Button.Accent" parent="TuTinder">
+        <item name="colorButtonNormal">@color/accent</item>
+        <item name="colorControlActivated">@color/accentDark</item>
+        <item name="colorControlHighlight">@color/accentDark</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="TuTinder.Button.Like" parent="TuTinder">
+        <item name="colorButtonNormal">@color/primary</item>
+        <item name="colorControlActivated">@color/green</item>
+        <item name="colorControlHighlight">@color/green</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="TuTinder.Button.Dislike" parent="TuTinder">
+        <item name="colorButtonNormal">@color/primary</item>
+        <item name="colorControlActivated">@color/red</item>
+        <item name="colorControlHighlight">@color/red</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="TuTinder.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+    </style>
+
+    <style name="TuTinder.Dialog.Progress" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="android:progressBarStyleHorizontal">
+            @style/Widget.AppCompat.ProgressBar.Horizontal
+        </item>
+    </style>
+
+</resources>

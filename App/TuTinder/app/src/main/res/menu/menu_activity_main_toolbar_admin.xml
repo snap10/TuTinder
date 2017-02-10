@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout_white_24dp"
+        android:orderInCategory="99"
+        android:title="@string/action_logout"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/action_edit_profile"
+        android:icon="@drawable/ic_person_white_24dp"
+        android:orderInCategory="98"
+        android:title="@string/action_edit_account"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_gotoadmin"
+        android:orderInCategory="97"
+        android:title="@string/action_go_to_admin"
+        app:showAsAction="collapseActionView" />
+</menu>

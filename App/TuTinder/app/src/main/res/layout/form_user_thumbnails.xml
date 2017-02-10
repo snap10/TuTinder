@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_profilepictures"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp">
+
+    <LinearLayout
+        android:id="@+id/ll_profileimages_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <tutinder.mad.uulm.de.tutinder.views.CircleNetworkImageView
+            android:id="@+id/banner_profilepicture1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_placeholder_profilepicture_grey_50dp" />
+
+        <tutinder.mad.uulm.de.tutinder.views.CircleNetworkImageView
+            android:id="@+id/banner_profilepicture2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_placeholder_profilepicture_grey_50dp" />
+
+        <tutinder.mad.uulm.de.tutinder.views.CircleNetworkImageView
+            android:id="@+id/banner_profilepicture3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_placeholder_profilepicture_grey_50dp" />
+
+        <tutinder.mad.uulm.de.tutinder.views.CircleNetworkImageView
+            android:id="@+id/banner_profilepicture4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_placeholder_profilepicture_grey_50dp" />
+
+        <tutinder.mad.uulm.de.tutinder.views.CircleNetworkImageView
+            android:id="@+id/banner_profilepicture5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_placeholder_profilepicture_grey_50dp" />
+
+    </LinearLayout>
+
+</HorizontalScrollView>
+

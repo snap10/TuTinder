@@ -1,0 +1,354 @@
+<resources>
+
+    <!-- *******************************************************************************************
+        App
+    ******************************************************************************************** -->
+    <string name="app_name">TuTinder</string>
+
+    <!-- *******************************************************************************************
+        Tab-Title
+    ******************************************************************************************** -->
+    <string name="tab_tutinder">Tutinder</string>
+    <string name="tab_my_courses">My Courses</string>
+    <string name="tab_my_groups">My Groups</string>
+
+    <!-- *******************************************************************************************
+        Captions
+    ******************************************************************************************** -->
+    <string name="cptn_personalinfo">Personal Info</string>
+    <string name="cptn_password">Password</string>
+    <string name="cptn_university">University</string>
+    <string name="cptn_tags">Describe yourself</string>
+    <string name="cptn_aboutme">About me</string>
+
+    <!-- *******************************************************************************************
+        Toolbar
+    ******************************************************************************************** -->
+
+    <!-- Title -->
+    <string name="title_register">Register</string>
+    <string name="title_editaccount">Edit Account</string>
+    <string name="title_mycourses">My Courses</string>
+    <string name="title_courseoverview">Course Overview</string>
+    <string name="title_myfriends">My Friends</string>
+    <string name="title_search">Search</string>
+    <string name="title_matchoverview">Match Overview</string>
+    <string name="title_group">GroupActivity</string>
+    <string name="title_mygroups">My Groups</string>
+    <string name="title_group_chat">Group Chat</string>
+    <string name="title_open_group_requests">Open Group Requests</string>
+
+    <!-- Actions -->
+    <string name="action_edit_account">Edit Account</string>
+    <string name="action_register">Send Data</string>
+    <string name="action_search">Search</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_save">Save</string>
+    <string name="action_popup">Popup</string>
+    <string name="action_remove_friend">Remove Friend</string>
+    <string name="action_undo">UNDO</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_leave_group">Leave Group</string>
+    <string name="action_go_to_admin">Go Admin</string>
+    <string name="action_group_request">grouprequest</string>
+    <string name="action_new_course">New Course</string>
+    <string name="action_search_for_partners">Search for Partners</string>
+    <string name="action_leave_course">Leave Course</string>
+    <string name="action_send_messages">Send Messages</string>
+    <string name="action_show_group">Show Group</string>
+    <string name="action_show_course">Show Course</string>
+    <string name="action_show_profile">Show Profile</string>
+    <string name="action_send_group_request">Send Group Request</string>
+    <string name="action_enroll_in_course">Enroll in Course</string>
+    <string name="action_timeslot_settings">Timeslot Settings</string>
+    <string name="action_select_photo">Select from Gallery</string>
+    <string name="action_take_photo">Take a Photo</string>
+    <string name="action_set_profilepicture">Set as Profilepicture</string>
+    <string name="action_remove_picture">Remove Picture</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_deny">Deny</string>
+
+    <!-- *******************************************************************************************
+        Hints
+    ******************************************************************************************** -->
+    <string name="hint_matriculationnumber">Matriculation Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">E-Mail</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_tag">Tag</string>
+    <string name="hint_studycourse">Studycourse</string>
+    <string name="hint_description">Tell others something about you</string>
+    <string name="hint_description_profile">Me, Myself</string>
+    <string name="hint_courses">My courses</string>
+    <string name="hint_personalitytags">Describe yourself in four tags!</string>
+    <string name="hint_password_repeat">Repeat password</string>
+    <string name="hint_newpassword">New password</string>
+    <string name="hint_newpassword_repeat">Repeat new password</string>
+    <string name="hint_oldpassword">Old password</string>
+    <string name="hint_faculty">Faculty</string>
+    <string name="hint_lecturer">Lecturer</string>
+    <string name="hint_interest_tag_search">Which courses are you interested in?</string>
+    <string name="hint_qr_code">Other users can scan this qr code to add you as a friend</string>
+    <string name="hint_no_details">The user has no further details given</string>
+    <string name="hint_search">Coursename</string>
+    <string name="hint_no_description">No Description available</string>
+    <string name="hint_no_phone">No Phone available</string>
+    <string name="hint_filter_tags">Degree of matches tag:</string>
+    <string name="hint_filter">Filter options:</string>
+    <string name="hint_filter_timeslots">Equal timeslots</string>
+    <string name="hint_filter_users">Show users</string>
+    <string name="hint_filter_groups">Show Groups</string>
+    <string name="hint_term">Term</string>
+    <string name="hint_to">To</string>
+    <string name="hint_from">From</string>
+    <string name="hint_no_lecturer">Lecturer not specified</string>
+    <string name="hint_friends">Friends in course</string>
+    <string name="hint_no_institute">Institute not specified</string>
+    <string name="hint_institute">Institute</string>
+    <string name="hint_no_coursename">Coursename not specified</string>
+    <string name="hint_coursename">Coursename</string>
+    <string name="hint_enrolled_users">Enrolled Users</string>
+    <string name="hint_groups">Groups</string>
+    <string name="hint_no_term">Term not specified</string>
+    <string name="hint_no_friends_in_course">None of your friends are in this course</string>
+    <string name="hint_max_group_size">| Max. group size:</string>
+    <string name="hint_no_attended_courses">No attended courses</string>
+    <string name="hint_attended_courses">Attended Courses</string>
+    <string name="hint_group_members">Group Members</string>
+    <string name="hint_group_size">Group Size</string>
+    <string name="hint_latest_messages">Latest Messages</string>
+    <string name="hint_no_messages">No Messages available</string>
+    <string name="hint_write_message">Write a Message ...</string>
+    <string name="hint_preferred_timeslots">Preferred Timeslots</string>
+    <string name="hint_no_preferred_timeslots">No preferred Timeslots</string>
+
+    <!-- *******************************************************************************************
+        Toasts
+    ******************************************************************************************** -->
+    <string name="toast_undo_rating">You disliked a user.</string>
+    <string name="toast_filtersettingsavedsucess">Filter changes saved successfully</string>
+    <string name="toast_filtersettingsresettedsuccess">Filter settings resetted successfully</string>
+    <string name="toast_group_request_succeded">Group request succeded</string>
+    <string name="toast_message_copy">Message has been copied to the clipboard</string>
+    <string name="toast_group_request_denied">Group request successfully denied</string>
+    <string name="toast_leave_group_succes">Leaved Group successfully</string>
+    <string name="toast_leave_course_succes">Leaved Course successfully</string>
+    <string name="toast_timeslots_save_succeded">Timeslots save succeded</string>
+
+    <!-- *******************************************************************************************
+        Errormessage
+    ******************************************************************************************** -->
+
+    <string name="error_invalid_credentials">Your credentials are invalid!</string>credentials
+    <string name="error_invalid_password_length">Your password must contain at least 8 characters!</string>
+    <string name="error_invalid_matriculationnr">Your matriculation-number is invalid!</string>
+    <string name="error_registration">Error while trying to register, check information!</string>
+    <string name="error_passwords_not_equal">Passwords must be equal</string>
+    <string name="error_password_not_valid">Passwords are not valid, check or provide at least 8 digits!</string>
+    <string name="error_already_registered">Matrikulationnumber is already registered!</string>
+    <string name="error_namelength">Your name must contain at least 3 characters.</string>
+    <string name="error_namenumber">Your name can not contain numbers.</string>
+    <string name="error_email">Your email address is invalid.</string>
+    <string name="error_studycoursenumber">Your studycourse can not contain numbers.</string>
+    <string name="error_matrikelnr">Your matriculation number can only contain numbers.</string>
+    <string name="error_passwordlength">Your password must contain at least 8 characters.</string>
+    <string name="error_passwordmatch">Your passwords must be identical.</string>
+    <string name="error_passwordoldinvalid">Your current password is invalid.</string>
+    <string name="error_notalltagsselected">You did not select all tags, please select one tag of each column.</string>
+    <string name="error_deleting_picture">Error! Image could not be deleted!</string>
+    <string name="error_sending_group_request">Group request failed</string>
+    <string name="error_sending_message">Sending Message failed</string>
+    <string name="error_rating_error">Error while sending request... We restore your rated user(s).</string>
+    <string name="error_sending_group_accept_request">Error while accepting group request</string>
+    <string name="error_loading_group_requests">Error while loading group requests</string>
+    <string name="error_sending_group_deny_request">Error while denying group request</string>
+    <string name="error_loading_course_list">Error while loading courses</string>
+    <string name="error_sending_search_request">Error while sending Search Request</string>
+    <string name="error_sending_leave_group_request">Error while sending leave Group Request</string>
+    <string name="error_sending_request">Error while sending request (no Connection)</string>
+    <string name="error_reading_qr_code">An error occurred while reading the QR code. Please try again.</string>
+    <string name="error_generating_qr_code">An error occurred while generating the QR code. Please try again.</string>
+    <string name="error_permissions_denied">Action could not be performed, because you denied necessary permissions.</string>
+    <string name="error_loading_user">Error while loading User</string>
+    <string name="error_user_already_in_group_formatted">%1$s already is in a Group in %2$s</string>
+    <string name="error_user_already_in_group">User already is in a Group</string>
+    <string name="error_loading_course">Error while loading Course</string>
+    <string name="error_loading_users">Error while loading Users</string>
+    <string name="error_to_much_profilepictures">You already have 5 Profilpicutres</string>
+    <string name="error_processing_picture">Error, while processing Picture</string>
+    <string name="error_loading_matches">Error while loading Matches</string>
+    <string name="error_invalid_email">Your Email is Invalid</string>
+    <string name="error_invalid_name">Your Name is invalid</string>
+    <string name="error_invalid_studycourse">Your Studycourse is invalid</string>
+    <string name="error_not_all_tags_selected">You must select one option for all Tags</string>
+    <string name="error_invalid_inputs">One of your Inputs was invalid...</string>
+    <string name="error_invalid_searchkey_word">Your keyword must contain at least 3 characters.</string>
+    <string name="error_loading_tags">Error while loading Personality Tags</string>
+    <string name="error_group_already_full">User already is in a full Group</string>
+
+    <!-- *******************************************************************************************
+        Dialog
+    ******************************************************************************************** -->
+    <string name="dialog_title_logout">Logout</string>
+    <string name="dialog_message_logout">Are you sure you want to log out?</string>
+    <string name="dialog_title_enroll">Enroll</string>
+    <string name="dialog_message_enroll">Do you want to enroll in this Course?</string>
+    <string name="dialog_message_enrolling">Enrolling in Course...</string>
+    <string name="dialog_title_leave">Leave Course</string>
+    <string name="dialog_message_leave">Do you want to leave this Course?</string>
+    <string name="dialog_message_leaving">Leaving this course...</string>
+    <string name="dialog_message_loading">Loading...</string>
+    <string name="dialog_title_setprofilepicture">Set Profilepicture</string>
+    <string name="dialog_message_setprofilepicture">Do you want to set this Picture as your main Profilepicture?</string>
+    <string name="dialog_title_removefriend">Remove as Friend?</string>
+    <string name="dialog_message_removefriend">Are you sure you want to give up the friendship?</string>
+    <string name="dialog_title_filtersettings">Filter Settings</string>
+    <string name="dialog_title_remove_picture">Remove Picture?</string>
+    <string name="dialog_message_remove_picture">Do you want to remove this picture?</string>
+    <string name="dialog_title_group_request">Sending Group Request</string>
+    <string name="dialog_message_group_request">Are you sure you want so send a group request? If the other user accept the request, you can not send group requests anymore in this course!</string>
+    <string name="dialog_title_group_request_action">Accept/Deny Request?</string>
+    <string name="dialog_message_group_request_action">By accepting a request you automatically get a member of this group. You can only be in one group in each course.</string>
+    <string name="dialog_title_leave_group">Leave Group?</string>
+    <string name="dialog_message_leave_group">Do you really want to leave this group?</string>
+    <string name="dialog_title_timeslot_settings">Select your prefered Timeslots</string>
+
+    <!-- *******************************************************************************************
+        Buttons
+    ******************************************************************************************** -->
+    <string name="btn_login">Login</string>
+    <string name="btn_loginsuccessfull">Login Sucessfull</string>
+    <string name="btn_loggingin">Logging in...</string>
+    <string name="btn_forgotpassword">Reset Password</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_editpassword">Edit Password</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_abort">Abort</string>
+    <string name="btn_enroll">Enroll</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_leave">Leave</string>
+    <string name="btn_set_profileimage">Set as Profileimage</string>
+    <string name="btn_like">Like</string>
+    <string name="btn_dislike">Dislike</string>
+    <string name="btn_default">Default</string>
+    <string name="btn_reset_ratings">Reset Ratings</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_my_groups">My Groups</string>
+    <string name="btn_open_requests">Open Requests</string>
+    <string name="btn_info">Info</string>
+    <string name="btn_accept">Accept</string>
+    <string name="btn_deny">Deny</string>
+    <string name="btn_friendlist">Friendlist</string>
+
+    <!-- *******************************************************************************************
+        Popup Items
+    ******************************************************************************************** -->
+
+    <string name="popup_search_for_partners">Search for partners</string>
+    <string name="popup_leavecourse">Leave course</string>
+    <string name="popup_addfriendbycamera">Add friend by camera</string>
+    <string name="popup_addfriendbyqrcode">Add friend by qrcode</string>
+    <string name="popup_removefriend">Remove as friend</string>
+    <string name="popup_cancel">Cancel</string>
+    <string name="popup_show_profile">Show Profile</string>
+    <string name="popup_enroll">Enroll in Course</string>
+    <string name="popup_send_group_request">Send Group-Request</string>
+    <string name="popup_show_course">Show Course</string>
+    <string name="popup_set_as_profilepicture">Set as Profileimage</string>
+
+    <!-- *******************************************************************************************
+        Empty-States
+    ******************************************************************************************** -->
+
+    <!-- TutinderActivity -->
+    <string name="emptystate_tutinder_title">Finished Rating</string>
+    <string name="emptystate_activity_tutinder_text_1">You have rated all Course Participants</string>
+    <string name="emptystate_activity_tutinder_text_2">Click to reset all Ratings</string>
+    <!-- FriendListActivity -->
+    <string name="emptystate_activity_friendlist">You have no Friends added</string>
+    <!-- MatchListActivity -->
+    <string name="emptystate_activity_matchlist">You have no Matches</string>
+    <!-- GroupRequestListActivity -->
+    <string name="emptystate_activity_group_request_list">You have no Group Requests</string>
+
+    <!-- *******************************************************************************************
+        Notifications
+    ******************************************************************************************** -->
+    <string name="notification_message_summary">more Message(s)</string>
+    <string name="notification_match_title_single">New Match</string>
+    <string name="notification_match_title_multible">new Matches</string>
+    <string name="notification_match_text">Someone liked you :)</string>
+    <string name="notification_friend_title_single">New Friend</string>
+    <string name="notification_friend_title_multible">new Friends</string>
+    <string name="notification_friend_text">You have a new Friend</string>
+    <string name="notification_group_request_title_single">New Group Request</string>
+    <string name="notification_group_request_title_multible">new Group Requests</string>
+    <string name="notification_group_request_text">You received a new Group Request</string>
+    <string name="notification_new_group_member_title">New Group Member</string>
+    <string name="notification_member_left">A Member of your Group left</string>
+    <!-- *******************************************************************************************
+        Others
+    ******************************************************************************************** -->
+
+    <string name="strangeError">Some strange error occured</string>
+    <string name="year">Year</string>
+    <string name="coursename">Coursename</string>
+    <string name="username">Username</string>
+    <string name="facultyname">Facultyname</string>
+    <string name="empty">-</string>
+    <string name="group">Group</string>
+    <string name="enrolled_users">enrolled users</string>
+    <string name="groups">groups</string>
+    <string name="add_Picture">Add Picture from...</string>
+    <string name="info">Info</string>
+    <string name="cancel">Cancel</string>
+    <string name="attended_courses">Attended Courses</string>
+    <string name="description">Description</string>
+    <string name="connectionError">Connection Error, please try again!</string>
+    <string name="courses">Courses</string>
+    <string name="course">Course</string>
+    <string name="matches">Matches</string>
+    <string name="imageaction">Imageaction</string>
+    <string name="success_deleting_picture">Successfully deleted image!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="error_tags_could_not_be_loaded">Tags could not be loaded from server...</string>
+
+    <string name="title_activity_admin">AdminActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="title_activity_admin_course">AdminCourseActivity</string>
+    <string name="friends">Friends</string>
+    <string name="choose">Choose</string>
+    <string name="monday">Monday</string>
+    <string name="sunday">Sunday</string>
+    <string name="saturday">Saturday</string>
+    <string name="friday">Friday</string>
+    <string name="thursday">Thursday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="hint_maxgroupsize">Maximal Groupsize</string>
+    <string name="hint_description_course">Coursedescription</string>
+    <string name="error_loading_groups">Could not load groups from Server</string>
+    <string name="rating_as_a_group">You\'re rating for your whole group!</string>
+    <string name="users_could_not_be_loaded">Error on loading users</string>
+    <string name="match">Match</string>
+    <string name="request">Request</string>
+    <string name="requests">Requests</string>
+    <string name="error_accepting_group_request">An error occured while accepting grouprequest</string>
+    <string name="grouprequest_title">Grouprequest</string>
+    <string name="from">from</string>
+    <string name="welcome">Welcome to the Tutinder World!</string>
+    <string name="requested">Requested</string>
+    <string name="my_group_request">My Grouprequest</string>
+    <string name="noTimeslotsInCourse">Course does not have Timeslots</string>
+
+
+</resources>

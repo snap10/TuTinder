@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "<insert your own>",
+    "project_id": "<insert your own>"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "<adapt to your needs>",
+        "android_client_info": {
+          "package_name": "tutinder.mad.uulm.de.tutinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "<insert your own key>"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

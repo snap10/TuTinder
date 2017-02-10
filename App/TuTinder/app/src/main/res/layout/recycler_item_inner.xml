@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/listitem_layout"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true">
+
+    <View
+        android:id="@+id/listitem_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/separator"
+        android:layout_toRightOf="@+id/listitem_picture" />
+
+    <tutinder.mad.uulm.de.tutinder.views.CircleNetworkImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listitem_picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerCrop"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp" />
+
+    <ProgressBar
+        android:id="@+id/listitem_progressbar"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:layout_marginTop="-7dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/listitem_picture">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/listitem_button"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:id="@+id/listitem_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/listitem_button"
+                android:layout_toRightOf="@+id/listitem_picture"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="Title"
+                android:textColor="@color/textPrimary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/listitem_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/linearLayout"
+                android:text="Subtitle" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/listitem_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:src="@drawable/ic_more_vert_black_24dp" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
