@@ -1,8 +1,17 @@
 # Tutiner
 Fancy App for finding appropriate partners for University Tutorial Sessions. ;-)
 
+## Architecture
+![Image of the Architecture](doc/architecture.png)
+
+## Matchingprocess
+![Image of the Matching-process](doc/matching-bpmn.png)
+
+## Group Building
+![Image of the Group-Building process](doc/gruppenbildung-bpmn.png)
+
 ## Credits
-This was a 3-Person Project:
+It has been a 3-Person Project:
  - https://github.com/mskr 
  - https://github.com/1uk4s
  - https://github.com/snap10

@@ -8,7 +8,6 @@ var Institute = require('../models/institute');
 var Group = require('../models/group');
 var Match = require('../models/match');
 var GroupRequest = require('../models/group_request');
-var seneca = require('seneca');
 var crypto = require('crypto');
 var authController = require('../controllers/auth');
 var url = require('url');

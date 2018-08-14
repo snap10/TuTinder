@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 var User = require('../models/user');
-var seneca = require('seneca');
 var authController = require('../controllers/auth');
 var fs = require('fs');
 var personalitytags = require('../personalitytags.json');

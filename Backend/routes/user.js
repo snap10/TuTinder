@@ -9,7 +9,6 @@ var Course = require('../models/course');
 var FriendRequest = require('../models/friend_request');
 var GroupRequest = require('../models/group_request');
 var Group = require('../models/group');
-var seneca = require('seneca');
 var authController = require('../controllers/auth');
 var util = require('util');
 var fs = require('fs');

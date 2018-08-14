@@ -5,7 +5,6 @@ var Course = require('../models/course');
 var User = require('../models/user');
 var Faculty = require('../models/faculty');
 var Institute = require('../models/institute');
-var seneca = require('seneca');
 var crypto = require('crypto');
 var authController = require('../controllers/auth');
 

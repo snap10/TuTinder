@@ -12,7 +12,6 @@ var Group = require('../models/group');
 var Rating = require('../models/rating');
 var Match = require('../models/match');
 var Course = require('../models/course');
-var seneca = require('seneca');
 var authController = require('../controllers/auth');
 var util = require('util');
 var gcm = require('node-gcm');
